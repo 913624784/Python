@@ -24,7 +24,7 @@ class neihanba():
 
     def writePage(self, context, page):
         print "正在将第" + str(page) + "页数据写入文件。。。"
-        with open("neihanba.txt", "a") as file:
+        with open("../out/neihanba.txt", "a") as file:
             file.writelines(context+"\n")
 
 

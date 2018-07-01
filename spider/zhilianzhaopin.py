@@ -60,7 +60,7 @@ class zhilianzhaopin():
 
     def writePage(self, context, page):
         print "正在将第" + str(page) + "页数据写入文件。。。"
-        with open("zhilianzhangpin.txt", "a") as file:
+        with open("../out/zhilianzhangpin.txt", "a") as file:
             file.writelines(context + "\n")
 
 
