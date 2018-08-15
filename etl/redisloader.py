@@ -9,8 +9,8 @@ from rediscluster import StrictRedisCluster
 
 REDIS_CONFIG = {
     'jy_cluster': {
-        'host': '10.153.151.115',
-        'port': 6914
+        'host': 'localhost',
+        'port': 6379
     }
 }
 
