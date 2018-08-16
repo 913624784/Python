@@ -34,8 +34,8 @@ if __name__ == '__main__':
     starttime = datetime.datetime.now()
     data_file_pattern = sys.argv[1]
     cluster = sys.argv[2]
-    if cluster != 'jy_cluster':
-        print "error : cluster must be jy_cluster"
+    if cluster != 'cluster':
+        print "error : cluster must be cluster"
         sys.exit()
 
     data_file_paths = glob.glob(data_file_pattern)
